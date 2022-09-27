@@ -1,0 +1,87 @@
+body {
+    display:flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+/*This is header */
+.header {
+    border:2px solid;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+.header-links {
+    border: 2px solid;
+    display: flex;
+}
+/* This is section 1*/
+.section1 {
+    border:2px solid lightgreen;
+    display:flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.section1-content {
+    border: 2px solid red;
+    display:flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+.awesome-subtext {
+    width: 300px;
+}
+.awesome-img {
+    border: 2px solid blue;
+    width: 300px;
+    height: 150px;
+}
+/*This is section 2*/
+.section2 {
+    border: 2px solid blue;
+    padding: 40px;
+}
+.info {
+    border: 2px solid green;
+    display:flex;    
+    justify-content: center;
+    padding: 40px;
+}
+/*Section 3*/
+.section3 {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.inspiration {
+    border: 2px solid;
+    width: 600px;
+    text-align: end;
+}
+/*Section 4*/
+.section4 {
+
+    border: 2px solid green;
+    padding: 40px; 
+    display: flex;
+    justify-content: center;
+}
+.signup {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    padding: 20px;
+}
+/*Footer*/
+.footer {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.copyright {
+    border: 2px solid red;
+    display: flex;
+}
