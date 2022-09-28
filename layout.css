@@ -3,85 +3,94 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    padding: 0;
+    margin: 0;
 }
 /*This is header */
 .header {
-    border:2px solid;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 8px;
 }
-.header-links {
-    border: 2px solid;
+.header-logo {
+    width: 30px;
+    height: 20px;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header-right {
     display: flex;
 }
 /* This is section 1*/
 .section1 {
-    border:2px solid lightgreen;
     display:flex;
     justify-content: space-around;
-    padding: 40px;
+    padding: 25px;
+    margin: 35px 0 0;
 }
 .section1-content {
-    border: 2px solid red;
     display:flex;
     flex-flow: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
 }
 .awesome-subtext {
-    width: 300px;
+    flex-flow: wrap;
 }
-.awesome-img {
-    border: 2px solid blue;
-    width: 300px;
-    height: 150px;
+.order-button {
+    margin-top: 15px;
 }
 /*This is section 2*/
 .section2 {
-    border: 2px solid blue;
     padding: 40px;
+    margin: 40px 50px;
 }
 .info {
-    border: 2px solid green;
     display:flex;    
-    justify-content: center;
-    padding: 40px;
+    justify-content: space-around;
+    padding: 25px;
+    gap: 10px;
+}
+.section2-pic {
+    margin-bottom: 8px;
+    width: 150px;
+    height: 150px;
 }
 /*Section 3*/
 .section3 {
-    border: 2px solid red;
     display: flex;
+    flex-flow: column;
     justify-content: center;
+    align-items: center;
     padding: 40px;
+    margin: 50px;
 }
 .inspiration {
-    border: 2px solid;
     width: 600px;
-    text-align: end;
-}
-/*Section 4*/
-.section4 {
-
-    border: 2px solid green;
-    padding: 40px; 
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .signup {
-    border: 2px solid blue;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    flex-wrap: wrap;
     width: 600px;
     padding: 20px;
+    margin-top: 50px;
+    gap: 8px;
 }
 /*Footer*/
 .footer {
-    border: 2px solid blue;
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 10px;
 }
 .copyright {
-    border: 2px solid red;
     display: flex;
 }

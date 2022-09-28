@@ -1,0 +1,95 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://scontent-ord5-1.xx.fbcdn.net/v/t1.6435-9/182777872_2837028989851205_8584830113871473629_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=1YMPy_HUdoEAX83dnwS&_nc_ht=scontent-ord5-1.xx&oh=00_AT_fIkHRC1YuCdIQr7N47MtSMIFPIJONRYqeTVOyYhWGTA&oe=635AD6EC);
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+/*HEADER*/
+.header {
+    background-color: #eba41fc5;
+    color: #E5E7Eb;
+    font-size: 18px;
+}
+.header-left {
+    font-size: 24px;
+}
+.header-right {
+    gap: 8px;
+}
+/*SECTION 1*/
+.section1 {
+    color: rgb(3, 78, 3);
+}
+.section1-content {
+    background-color:rgba(255, 255, 255, 0.604);
+    border-radius: 15px;
+}
+.awesome {
+    font-size: 48px;
+}
+.awesome-subtext {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.order-button {
+    padding: 8px 15px;
+    background-color: #3881f6a5;
+    border-radius: 15px;
+    border: none;
+}
+/*SECTION 2*/
+.section2 {
+    background-color: #eba41fc9;
+    text-align: center;
+    color: #E5E7Eb;
+    border-radius: 15px;
+}
+.section2-heading {
+    font-size: 48px;
+}
+.section2-pic {
+    border-radius: 15px;
+}
+/*Section 3*/
+.container {
+    background-image: url(https://scontent-ord5-1.xx.fbcdn.net/v/t1.6435-9/189540033_2848739745346796_919679146968850357_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=MRMaM-4szlEAX-7ZvLI&_nc_ht=scontent-ord5-1.xx&oh=00_AT9Qsqdba_uOppGhpxEu4vqNy1xOoJlAr9nW7NmgR2Xr2Q&oe=6358C20E);
+}
+.section3 {
+    font-size: 40px;
+    font-family: 'Apple Chancery';
+    background-color: rgba(255, 255, 255, 0.604);
+    color: rgb(3, 78, 3);
+}
+.signup {
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(220, 153, 30);
+}
+.signup-button {
+    padding: 8px 15px;
+    background-color: #3881f6a5;
+    border-radius: 15px;
+    border: none;
+}
+.fa {
+    background-color: rgb(220, 153, 30);
+    padding: 5px;
+    font-size: 15px;
+    width: 20px;
+    height: auto;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+}
+/*section 4*/
+.footer {
+    background-color: rgba(220, 154, 30, 0.96);
+    color: #e5e7eb;
+    display: flex;
+}
